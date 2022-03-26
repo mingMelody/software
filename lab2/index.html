@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>百度一下，你就知道</title>
+    <link href="附件/style.css" type="text/css" rel="stylesheet" />
+    <script src="附件/index.js"></script>
+</head>
+
+<body>
+    <div class="web-outer">
+        <div id="head">
+            <div id="top-left">
+                <a href="http://news.baidu.com/" target="_blank">新闻</a>
+                <a href="https://www.hao123.com" target="_blank">hao123</a>
+                <a href="http://map.baidu.com" target="_blank">地图</a>
+                <a href="https://live.baidu.com/" target="_blank">直播</a>
+                <a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a>
+                <a href="http://tieba.baidu.com" target="_blank">贴吧</a>
+                <a href="http://xueshu.baidu.com" target="_blank">学术</a>
+            </div>
+            <div id="top-right">
+                <div id="top-login-btn">登录</div>
+            </div>
+        </div>
+        <div id="outer-mid">
+            <div id="mid">
+                <div id="logo-outer">
+                    <figure id="logo" title="点击一下，了解更多"></figure>
+                </div>
+                <div id="search-div">
+                    <div id="search-input">
+                        <input id="test" onkeydown="entersearch()" />
+                        <div id="search-btn">百度一下</div>
+                    </div>
+                </div>
+                <div id="hot-title">
+                    <span id="game"></span>
+                    <span id="hot-content-title">热榜之19375452分榜</span>
+                    <span class="right" id="hot-title-p"></span>
+                    <span class="hot-heat">更多</span>
+                </div>
+                <ul id="hot">
+                    <li id="hot-top">
+                        <img src="./img/genshin.jpg">
+                        <div class="hot-order-1"><span>1</span></div>
+                        <div class="hot-content">原神</div>
+                        <div class="hot-heat">热搜指数：324853</div>
+                        <div class="up hot-p"></div>
+                        <div class="hot-type"><span>手机游戏</span></div>
+
+
+                        <!-- <span class="hot-tag hot"></span> -->
+                    </li>
+                    <li>
+                        <span class="hot-order hot-order-2">2</span>
+                        <span class="hot-content">香肠派对</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">168931</span>
+                        <!-- <span class="hot-tag hot">热</span> -->
+                    </li>
+                    <li>
+                        <span class="hot-order hot-order-3">3</span>
+                        <span class="hot-content">王者荣耀</span>
+                        <span class="heng hot-p"></span>
+                        <span class="hot-heat">161167</span>
+
+                    </li>
+                    <li>
+                        <span class="hot-order">4</span>
+                        <span class="hot-content">我的世界</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">127320</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">5</span>
+                        <span class="hot-content">和平精英</span>
+                        <span class="heng hot-p"></span>
+                        <span class="hot-heat">123379</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">6</span>
+                        <span class="hot-content">植物大战僵尸</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">88496</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">7</span>
+                        <span class="hot-content">迷你世界</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">79547</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">8</span>
+                        <span class="hot-content">光遇</span>
+                        <span class="heng hot-p"></span>
+                        <span class="hot-heat">76194</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">9</span>
+                        <span class="hot-content">泰拉瑞亚</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">54000</span>
+                    </li>
+                    <li>
+                        <span class="hot-order">10</span>
+                        <span class="hot-content">绝地求生</span>
+                        <span class="up hot-p"></span>
+                        <span class="hot-heat">49095</span>
+                    </li>
+                    <!-- TODO: 完成剩余部分的代码 -->
+                </ul>
+            </div>
+        </div>
+        <div id="footer">本网页仅用于软工实验使用</div>
+        <!-- 引入核心代码，请不要修改 -->
+        <script src="code/index.js"></script>
+    </div>
+    <style>
+        #logo {
+            background-image: url('./img/logo.png');
+        }
+
+        .up {
+            background-image: url('./img/up.png');
+        }
+
+        .heng {
+            background-image: url('./img/heng.png');
+        }
+
+        .right {
+            background-image: url('./img/right.png');
+        }
+
+        #game {
+            background-image: url('./img/game.png');
+        }
+    </style>
+</body>
+
+</html>
